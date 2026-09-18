@@ -1,0 +1,39 @@
+#main {
+    max-width: 35%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 5%;
+    padding-bottom:0;
+    padding-left:7%;
+    padding-right:7%;
+    border: 1px solid gray;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(40, 92, 216);
+    font-size: .9em;
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing:3px;
+}
+
+
+li {
+    margin-bottom:20px;
+
+}
+.special {
+    font-style: italic;
+}
+
+#body {
+    font-size: 1.2em;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 60px auto;
+}
