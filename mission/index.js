@@ -30,7 +30,7 @@ function changeTheme() {
       
     } else {
         // code for changes to colors and logo
-       //document.querySelector('img').src = 'byui-logo-blue.webp';
+       document.querySelector('img').src = 'byui-logo-blue.webp';
         body.style.backgroundColor = 'white';   
         document.querySelector('h1').style.color = 'black';     
         const text = document.querySelectorAll('p');
