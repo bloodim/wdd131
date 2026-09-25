@@ -44,7 +44,7 @@ function changeTheme() {
         }
         console.log(a);
         let b = 0;
-        while (text.length >= b) {
+        while (list.length > b) {
             list[b].style.color = "black";
             b++;
         }
