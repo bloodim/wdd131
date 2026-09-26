@@ -6,11 +6,10 @@ selectElem.addEventListener('change', changeTheme);
 
 function changeTheme() {
     let current = selectElem.value;
-    let body = document.querySelector('body');
+    let body = document.querySelector('body').classList;
     if (current == 'dark') {
         // code for changes to colors and logo
-        
-        body.style.backgroundColor = '#1a201c';
+        body.add('dark');
         document.querySelector('h1').style.color = 'white';
         const text = document.querySelectorAll('p');
         const list = document.querySelectorAll('li');
@@ -31,7 +30,8 @@ function changeTheme() {
     } else {
         // code for changes to colors and logo
        document.querySelector('img').src = 'byui-logo-blue.webp';
-        body.style.backgroundColor = 'white';   
+        //body.style.backgroundColor = 'white';   
+        body.toggle('dark');
         document.querySelector('h1').style.color = 'black';     
         const text = document.querySelectorAll('p');
         const list = document.querySelectorAll('li');
