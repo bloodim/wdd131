@@ -7,9 +7,9 @@ menuButton.addEventListener("click", menuToggle);
 
 function menuToggle() {
     let nav = document.querySelector("nav");
-    nav.classList.toggle("show");
+    nav.classList.toggle('show');
     // menuButton.classList.toggle('change');
-}
+};
 
 
 gallerySection.addEventListener('click', (event) => {

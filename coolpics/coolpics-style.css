@@ -10,6 +10,15 @@
     font-size: 16px;
 }
 
+/* shows with JS */
+
+.show {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+/* Standard CSS */
+
 
 body {
     display: flex;
@@ -108,14 +117,7 @@ dialog {
     right: 2vh;
     padding: 3px 6px;
     font-size: 1.5em;
-}f
-
-/* shows with JS */
-.show {
-    display:grid;
-    grid-template-columns: 1fr;
 }
-
 
 @media screen and  (min-width: 600px) {
     
@@ -153,7 +155,7 @@ dialog {
        height: auto;
 
     }
-      
+     
 
 }
 
@@ -183,9 +185,7 @@ dialog {
     }
 
     div {
-        width:60%;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
+        width:80%;
     }
     
     #mobile {
