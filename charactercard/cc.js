@@ -13,7 +13,13 @@ const character = {
     health: 100,
     level: 5,
     levelUp: function() {
-        this.level++;
+        
+        if (this.health === 0) {
+            this.level = this.level;
+        }
+        else {
+            this.level++;
+        }
     },
     attacked: function() {
         this.health -= 20;
