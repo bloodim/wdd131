@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+hr{
+    margin-top: 50px;       
+}
+
+@media (min-width: 800px) {
+              
+.media-card {
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.gallery .media-card {
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.gallery .media-card-image {
+    width: 250px;
+}
+
+}
