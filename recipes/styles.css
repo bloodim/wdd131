@@ -21,6 +21,9 @@ header img {
 .recipes {
     display:flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
 
@@ -62,11 +65,12 @@ h1 {
     border: 2px solid black;
     border-radius: 10px;
     width: 300px;
-  
+    padding: 15px;
 }
 
 .recipe img {
     width: 100%;
+  
 }
 
 .details {
@@ -93,7 +97,6 @@ footer img {
 }
 
 footer {
-  
     height: 120px;
     padding-top: 10px;
     display:flex;
@@ -110,8 +113,13 @@ footer {
     gap:10px;
 }
 
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
 @media (min-width: 600px) {
-    main{
+    main {
         width:70%;
         margin:auto;
     }
@@ -122,18 +130,26 @@ footer {
         border: 2px solid black;
         border-radius: 10px;
         width: 100%;
-        padding:20px;
-        gap: 15px;
+        gap: 25px;
+        padding: 0px;
     }
+
 
     .recipe img {
         grid-column: 1fr;
+        padding: 15px;
     }
 
     .description {
         display:block;
     }
     .details {
-        margin:auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-left:10px;
+    }
+
+    footer {
+        flex-direction: row-reverse;
     }
 }
